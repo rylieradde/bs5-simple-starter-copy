@@ -1,1 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+@import url("https://use.typekit.net/vxm8ujo.css");
 
+/* Fonts
+.catamaran-<uniquifier> {
+        font-family: "Catamaran", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+
+font-family: "chippewa-falls", sans-serif;
+font-weight: 500;
+font-style: normal;
+      } */
+
+
+nav {
+    background-color: #FCF8E8;
+    height: 140px;
+}
+
+nav button {
+    margin-right: 43px;
+}
+
+#nav-btn {
+    background-color: #024033;
+    color: #ffffff;
+    width: 198px;
+    height: 60px;
+
+    font-family: "Catamaran", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.card {
+    width: 439px;
+}
+
+.hero {
+    margin-top: 44px;
+}
+
+.hero-content {
+    left: 67px;
+    top: 204px;
+}
+
+.hero h1 {
+    font-family: "chippewa-falls", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    line-height: 96px;
+    letter-spacing: -1.1px;
+    color: #FEC100;
+    width: 765px;
+}
+
+.hero #left-btn {
+    background-color: #098460;
+    color: #FFFFFF;
+    width: 198px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 25px;
+
+    font-family: "Catamaran", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.hero p {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: auto;
+    color: #FFFFFF;
+    width: 630px;
+    margin-top: 35px;
+}
+
+.hero #right-btn {
+    background-color: #ffffff;
+    color: #098460;
+    width: 244px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+
+    font-family: "Catamaran", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+}
+
+h1 {
+    font-family: "chippewa-falls", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+    line-height: 96px;
+    letter-spacing: -1.1px;
+    color: #FEC100;
+}
+
+h2 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: auto;
+    color: #024033
+}
+
+h3 {
+    font-family: "chippewa-falls", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    line-height: auto;
+    color: #024033;
+}
+
+h4 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    line-height: auto;
+    color: #024033;
+}
+
+.invite-container {
+    position: relative;
+    /* width: 100%; */
+    /* max-width: 1000px;  */
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  .invite-text {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: white;
+  }
+  
+  .invite-text h2,
+  .invite-text h3,
+  .invite-text h4 {
+    margin-top: 208px;
+    margin-bottom: 509px;
+    padding: 0;
+  }
+
+  .packing_list {
+      width: 785px;
+      padding-left: 112px;
+  }
+
+ /* .packing_list li {
+    width: 294px;
+ } */

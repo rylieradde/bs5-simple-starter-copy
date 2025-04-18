@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,23 +8,177 @@
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Bootstrap 5 Starter</title>
+    <title>A weekned in the woods website</title>
 </head>
+
 <body>
-    <h1 class="text-primary">
-    <i class="fas fa-star"></i>
-    Bootstrap 5 Simple Starter
-    </h1>
-    <p> 
-        This is a boilerplate for creating and customizing 
-        Bootstrap 5 projects.
-    </p>
-    <p class="bg-light p-2">
-        Look at 
-        <strong>"node_modules/bootstrap/dist/scss/_variables.scss"</strong>to see 
-        the varaibles that you can overwrite in your <strong>"bootstrap.scss"</strong>file.
-    </p>
+    <header>
+        <nav id="nav-example" class="nav align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="/images/desktop-logo.png">
+            </a>
+            <div class="justify-content-center ps-0">Great Lakes Camping Co</div>
+            <button id="nav-btn" class="btn ms-auto">RSVP Now</button>
+        </nav>
+    </header>
+
+    <div class="hero d-flex justify-content-center position-relative">
+        <img src="/images/hero-desktop.png" alt="">
+
+        <div class="position-absolute hero-content">
+            <h1>Spend a weekend in the woods</h1>
+            <p>Join us on our next trip around the mitten to the Plate River Campground in Honor, MI! Get ready for lots
+                of
+                fun, smiles, smores, and even more.</p>
+            <button id="left-btn" class="btn">RSVP Now</button>
+            <button id="right-btn" class="btn">Browse Campsites</button>
+        </div>
+    </div>
+
+    <div class="position-relative invite-container text-center">
+        <img src="/images/join-us-desktop.png" alt="" class="img-fluid w-100">
+        <div class="invite-text position-absolute top-50 start-50 translate-middle text-center">
+            <h2 class="d-inline text-nowrap">Join us Memorial Weekend at the</h2>
+            <h3 class="d-inline text-nowrap">Platte River Campground</h3>
+            <h4 class="d-inline text-nowrap">May 22–28, 2025</h4>
+        </div>
+    </div>
+
+    <div class="packing_list">
+        <h2>The Essentials Packing List</h2>
+        <p> Feeling like you might forget something?
+            No worries! Use our handy dandy packing list below,
+            so you don’t forget the clothing essentials so you can
+            be prepared for any adventure. </p>
+        <ul class="d-flex flex-row justify-content-center list-unstyled">
+            <li class="card border-0">
+                <img src="/images/shirt-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Shirts</h5>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/shorts-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Shorts</h5>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/pants-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Pants</h5>
+                </div>
+            </li>
+            <li class="card border-0">
+                <img src="/images/sweatshirt-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Sweatshirts</h5>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/swimsuit-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Swimsuits</h5>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/pjs-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Pjs</h5>
+                </div>
+            </li>
+            <li class="card border-0">
+                <img src="/images/sock-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Socks</h5>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/shoe-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Shoes</h5>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/hat-icon-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Hats</h5>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/essentials-ico-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="packing-title">Essentials</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="map">
+        <div class="map-header">
+            <h2>Campground's Map</h2>
+            <img src="/images/download-icon-desktop.png">
+        </div>
+        <img src="/images/map-desktop.png">
+    </div>
+
+    <div class="activities">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2 class="mb-0">Extra Adventures</h2>
+            <button class="btn">View More Activities</button>
+        </div>
+
+        <ul class="d-flex flex-row justify-content-center list-unstyled">
+            <li class="card border-0">
+                <img src="/images/dunes-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Empire, MI</h5>
+                    <h6 class="card-subtitle mb-2 text-muted ">19 miles away</h6>
+                    <p class="card-text">$25 </p>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/canoe-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Honor, MI</h5>
+                    <h6 class="card-subtitle mb-2 text-muted ">Less then 1 mile away</h6>
+                    <p class="card-text">$55</p>
+                </div>
+            </li>
+
+            <li class="card border-0">
+                <img src="/images/hike-desktop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Honor, MI</h5>
+                    <h6 class="card-subtitle mb-2 text-muted ">Less then 1 mile away</h6>
+                    <p class="card-text">Free</p>
+                </div>
+            </li>
+        </ul>
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
+<footer>
+    <div class="footer d-flex justify-content-center">
+        <img src="/images/footer-desktop.png" class="img-fluid w-100" alt="">
+    </div>
+    <img src="/images/desktop-logo.png">
+        <h3>Great Lakes Camping Co</h3>
+        <h4>Phone</h4>
+        <h5>616-450-9716</h5>
+        <h4>Email</h4>
+        <h5>GreatLakesCampingCo.com</h5>
+        <h6>Privacy Policy</h6>
+</footer>
+
 </html>
